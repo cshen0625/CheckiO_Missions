@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+'''
+ Created on 2018-07-26 18:20:10
+@author: cshen
+'''
+
 def checkio(data):
  
     length = (len(data) >= 10)

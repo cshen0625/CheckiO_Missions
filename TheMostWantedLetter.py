@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+'''
+ Created on 2018-07-26 20:21:07
+@author: cshen
+'''
+
 def checkio(text):
     count = 0
     char_list = list(text.lower())
