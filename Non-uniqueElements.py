@@ -5,10 +5,10 @@
 @author: cshen
 '''
 def checkio(data):
-    tmp = []
+    tmp = data.copy()
     for x in data:
-        if data.count(x) > 1:
-            tmp.append(x)
+        if tmp.count(x) == 1:
+            tmp.remove(x)
     return tmp
 
 if __name__ == "__main__":

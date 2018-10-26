@@ -17,5 +17,4 @@ if __name__ == '__main__':
     assert long_repeat('ddvvrwwwrggg') == 3, "Second"
     assert long_repeat('abababaab') == 2, "Third"
     assert long_repeat('') == 0, "Empty"
-    assert long_repeat('aa') == 2, "Empty"
     print('"Run" is good. How is "Check"?')
